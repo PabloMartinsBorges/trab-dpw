@@ -1,0 +1,87 @@
+#div-nav, #div-principal-bg, #div-principal, .div-conteudo, .div-topicos{
+    margin: 0;
+    padding: 0;
+}
+
+#div-nav, #div-principal-bg, #div-principal, .div-topicos{
+    /* Centraliza os itens da div no centro (verticalmente)*/
+   display: flex;
+   align-items: center;
+}
+
+#div-principal-bg, #div-principal{
+    height: 90vh;
+    width: 100vw;
+}
+
+#div-nav{
+   background-color: white;
+   height: 10vh;
+   width: 100vw;
+   /*para a div ficar fixa no topo do site*/ 
+   z-index:3;
+   position: fixed;
+}
+
+#div-principal-bg{
+    background-image: url("../imagem/guarana1.png");
+    filter: blur(10px);
+}
+
+#div-principal{
+    z-index: 2;
+    position: absolute;
+}
+
+.span-nav{
+    padding: 0px 0px 0px 40px;
+    color: green;
+    text-decoration: solid;
+    font-size: 25px;
+}
+
+.div-topicos{
+    height: 90vh;
+    width: 100vw;
+}
+
+.div-conteudo{
+    width: 50%;
+    padding-left: 10%;
+}
+
+.vermelho{
+    color: #E42D26;
+    background-color: #E42D26;
+}
+
+.verde{
+    color: #147827;
+    background-color: #147827;
+}
+
+.amarelo{
+    color: #FED51E;
+    background-color: #FED51E;
+}
+
+h1{
+    color: white;
+    padding-left: 10% ;
+    font-size: 80px;
+}
+h2{
+    padding: 0;
+    color: white;
+    font-size: 50px;
+}
+p{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+#corpo{
+    margin: 0;
+    padding: 0;
+}
