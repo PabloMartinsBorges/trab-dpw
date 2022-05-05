@@ -24,8 +24,8 @@
 }
 
 #div-principal-bg{
-    background-image: url("../imagem/guarana1.png");
-    filter: blur(10px);
+    background-image: url("../imagem/guarana2.png");
+    filter: blur(2px);
 }
 
 #div-principal{
@@ -43,6 +43,8 @@
 .div-topicos{
     height: 90vh;
     width: 100vw;
+    z-index: 2;
+    position: relative;
 }
 
 .div-conteudo{
