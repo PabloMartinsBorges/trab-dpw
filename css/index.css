@@ -15,7 +15,7 @@
 }
 
 #div-nav{
-   background-color: white;
+   background-color: #333;
    height: 10vh;
    width: 100vw;
    /*para a div ficar fixa no topo do site*/ 
@@ -33,12 +33,76 @@
     position: absolute;
 }
 
+/*estilização da lista (navbar)*/
+ul{
+    /*faz com que a lista apareça sem marcações*/
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-decoration: solid;
+    font-size: 25px;
+    background-color: #333;
+    width: 100%;
+    margin-left: 2%;
+  }
+
+/*Faz com que os itens fiquem fltuando à esquerda*/
+li{
+    float: left;
+}
+
+/*Faz a organização dos links para as páginas*/
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+/*classe para indicar ao usuário a página atual*/
+.active {
+    background-color: #04AA6D;
+}
+
+/*Faz a estilização do background do link ao passar o mouse*/
+li a:hover:not(.active) {
+        background-color: #111;
+}
+
+
+/*Retira a linha sublinhada do link*/
+a{
+    text-decoration: none;
+
+}
+
+/*Estilização do link: normal, com o mouse sobre e quando já visitado, respectivamente*/
+a:link{
+    color: whitesmoke;
+}
+
+a:hover{
+    color: #E42D26;
+}
+
+a:visited{
+    color: blueviolet;
+}
+
+
+
+
+
+
 .span-nav{
     padding: 0px 0px 0px 40px;
     color: green;
     text-decoration: solid;
     font-size: 25px;
 }
+
 
 .div-topicos{
     height: 90vh;
