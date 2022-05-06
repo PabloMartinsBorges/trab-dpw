@@ -97,7 +97,7 @@ li a:hover:not(.active) {
 
 /*Estilização do link: normal, com o mouse sobre e quando já visitado, respectivamente*/
 a:link{
-    color: whitesmoke;
+    color: palevioletred;
 }
 
 a:hover{
