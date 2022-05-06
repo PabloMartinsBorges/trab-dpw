@@ -1,81 +1,98 @@
-#div-nav, #div-principal-bg, #div-principal, .div-conteudo, .div-topicos{
+#div-header, #div-principal, .div-conteudo, .div-topico{
     margin: 0;
     padding: 0;
 }
 
-#div-nav, #div-principal-bg, #div-principal, .div-topicos{
+#div-header, #div-principal, .div-topico, ul, #footer-bottom{
     /* Centraliza os itens da div no centro (verticalmente)*/
    display: flex;
    align-items: center;
 }
 
-#div-principal-bg, #div-principal{
+#div-principal{
     height: 90vh;
-    width: 100vw;
 }
 
-#div-nav{
-   background-color: #333;
+#div-header{
+   background-color:white;
    height: 10vh;
-   width: 100vw;
    /*para a div ficar fixa no topo do site*/ 
    z-index:3;
    position: fixed;
 }
 
-#div-principal-bg{
-    background-image: url("../imagem/guarana2.png");
-    filter: blur(2px);
+#footer-top{
+    text-align: center;
+    padding: 2% 0 2% 0;
+    background-color: #141414;
+}
+
+#footer-bottom{
+    padding: 1%;
+    background-color: black;
 }
 
 #div-principal{
-    z-index: 2;
-    position: absolute;
+    background-image: url("../imagem/guarana2.png");
+    background-size: 500px;
+}
+#div-titulo{
+    margin: 10%;
+    width: 50%;
+    background-color: white;
 }
 
+
 /*estilização da lista (navbar)*/
-ul{
+ul.header{
     /*faz com que a lista apareça sem marcações*/
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     text-decoration: solid;
-    font-size: 25px;
-    background-color: #333;
-    width: 100%;
-    margin-left: 2%;
-  }
+    font-size: 1.5em;
+    background-color: white;
+    width: 100vw;
+
+}
+
+ul.footer{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: solid;
+    font-size: 1.2em;
+}
 
 /*Faz com que os itens fiquem fltuando à esquerda*/
-li{
+li.header{
+    padding: 0 2% 0 2%;
     float: left;
 }
 
+li.footer{
+    padding: 0 2% 0 2%;
+
+}
+
 /*Faz a organização dos links para as páginas*/
-li a {
+a {
     display: block;
     color: white;
-    text-align: center;
-    padding: 14px 16px;
+
+    /*Retira a linha sublinhada do link*/
     text-decoration: none;
-  }
+}
 
 /*classe para indicar ao usuário a página atual*/
 .active {
-    background-color: #04AA6D;
+    color: #FED51E;
 }
 
 /*Faz a estilização do background do link ao passar o mouse*/
 li a:hover:not(.active) {
-        background-color: #111;
-}
-
-
-/*Retira a linha sublinhada do link*/
-a{
-    text-decoration: none;
-
+        color: #E42D26;
 }
 
 /*Estilização do link: normal, com o mouse sobre e quando já visitado, respectivamente*/
@@ -88,53 +105,21 @@ a:hover{
 }
 
 a:visited{
-    color: blueviolet;
-}
-
-
-
-
-
-
-.span-nav{
-    padding: 0px 0px 0px 40px;
-    color: green;
-    text-decoration: solid;
-    font-size: 25px;
-}
-
-
-.div-topicos{
-    height: 90vh;
-    width: 100vw;
-    z-index: 2;
-    position: relative;
-}
-
-.div-conteudo{
-    width: 50%;
-    padding-left: 10%;
-}
-
-.vermelho{
-    color: #E42D26;
-    background-color: #E42D26;
-}
-
-.verde{
     color: #147827;
-    background-color: #147827;
 }
 
-.amarelo{
-    color: #FED51E;
-    background-color: #FED51E;
+a:visited.footer{
+    color: white;
 }
 
 h1{
+    margin: 5%;
     color: white;
-    padding-left: 10% ;
-    font-size: 80px;
+    font-size: 5em ;
+}
+
+h4{
+    margin: 5%;
 }
 h2{
     padding: 0;
@@ -147,7 +132,8 @@ p{
     color: white;
 }
 
-#corpo{
+html body{
     margin: 0;
     padding: 0;
+    min-width: 100%;
 }

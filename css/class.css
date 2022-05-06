@@ -1,0 +1,50 @@
+p.footer{
+    color:white;
+    font-size: 1.5em;
+    text-decoration: solid;
+}
+.div-topico{
+    height: 90vh;
+    z-index: 2;
+    position: relative;
+}
+
+.div-conteudo{
+    width: 50%;
+    padding-left: 10%;
+}
+
+.bg-vermelho{
+    background-color: #E42D26;
+}
+
+.bg-verde{
+    background-color: #147827;
+}
+
+.bg-amarelo{
+    background-color: #FED51E;
+}
+
+.txt-verde{
+    color: #147827;
+}
+
+.txt-vermelho{
+    color: #E42D26;
+}
+.txt-branco{
+    color:white
+}
+
+.shadow{
+    box-shadow: 5px 5px 5px 5px  rgba(0,0,0,0.2);
+}
+
+.comecar-direita{
+    margin-left: auto;
+    margin-right: 5%;
+}
+
+
+
