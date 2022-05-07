@@ -42,7 +42,6 @@
     background-color: white;
 }
 
-
 /*estilização da lista (navbar)*/
 ul.header{
     /*faz com que a lista apareça sem marcações*/
@@ -97,7 +96,7 @@ li a:hover:not(.active) {
 
 /*Estilização do link: normal, com o mouse sobre e quando já visitado, respectivamente*/
 a:link{
-    color: palevioletred;
+    color: whitesmoke;
 }
 
 a:hover{
