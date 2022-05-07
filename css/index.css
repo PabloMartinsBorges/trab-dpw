@@ -190,11 +190,11 @@ a:hover.hover-amarelo{
 }
 
 .bg-amarelo{
-    background-color: #FED51E;
+    background-color: #f2c40d;
 }
 
 .txt-amarelo{
-    color: #FED51E;
+    color: #ffdb4d;
 }
 
 .txt-verde{
@@ -250,6 +250,32 @@ a:hover.hover-amarelo{
     top: 1px;
 }
 
+
+/*Quiz*/
+
+.quiz {
+    margin-bottom: 48px;
+    width: 604px;
+    align-items: center;
+
+}
+
+.quiz-header {
+    background-color: #ff4d4d;
+    padding: 15px 20px;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: Roboto;
+    display: block;
+}
+
+.quiz-descricao {
+    padding: 39px 19px 22px 19px;
+    border: 1px solid #b8b8e0;
+    background-color: #4dff4d;
+    color: #b8b8e0;
+}
 
 
 
