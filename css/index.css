@@ -42,6 +42,68 @@
     background-color: white;
 }
 
+#voltar-topo{
+    margin-left: auto;
+    margin-right: 2%;
+}
+#direitos-autorais{
+    font-size: 0.9em;
+    color: white;
+}
+
+/*Faz a organização dos links para as páginas*/
+a {
+    display: block;
+    color: white;
+
+    /*Retira a linha sublinhada do link*/
+    text-decoration: none;
+}
+
+/*Estilização do link: normal, com o mouse sobre e quando já visitado, respectivamente*/
+a{
+    color: #147827;
+}
+
+a:hover{
+    color: #E42D26;
+}
+
+h1{
+    margin: 5%;
+    color: white;
+    font-size: 5em ;
+}
+
+h3{
+    margin: 5%;
+    font-size: 2em;
+}
+h2{
+    padding:0 ;
+    color: white;
+    font-size: 3em;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 1.5em;
+}
+
+html body{
+    margin: 0;
+    padding: 0;
+    min-width: 100%;
+}
+
+p.footer{
+    color:white;
+    font-size: 1.5em;
+    text-decoration: solid;
+}
+
 /*estilização da lista (navbar)*/
 ul.header{
     /*faz com que a lista apareça sem marcações*/
@@ -74,67 +136,121 @@ li.footer{
     padding: 0 2% 0 2%;
 
 }
-
-/*Faz a organização dos links para as páginas*/
-a {
-    display: block;
-    color: white;
-
-    /*Retira a linha sublinhada do link*/
-    text-decoration: none;
+/*Faz a estilização do background do link ao passar o mouse*/
+li a:hover:not(.active) {
+    color: #E42D26;
 }
-
 /*classe para indicar ao usuário a página atual*/
 .active {
     color: #FED51E;
 }
 
-/*Faz a estilização do background do link ao passar o mouse*/
-li a:hover:not(.active) {
-        color: #E42D26;
-}
-
-/*Estilização do link: normal, com o mouse sobre e quando já visitado, respectivamente*/
-a{
-    color: #147827;
-}
-
 a.footer{
     color: white;
 }
+a:hover.hover-vermelho{
+    color: #E42D26;
+    border-color: #E42D26;
+}
 
-a:hover{
+a:hover.hover-verde{
+    color: #147827;
+    border-color: #147827;
+}
+
+a:hover.hover-amarelo{
+    color: #FED51E;
+    border-color: #FED51E;
+}
+.div-topico{
+    height: 90vh;
+    z-index: 2;
+    position: relative;
+}
+
+.img-topico{
+    height: 100%;
+}
+
+.div-topico-metade{
+    height: 100%;
+    width: 50%;
+}
+
+.div-topico-box{
+    margin: 10%;
+}
+
+.bg-vermelho{
+    background-color: #E42D26;
+}
+
+.bg-verde{
+    background-color: #147827;
+}
+
+.bg-amarelo{
+    background-color: #FED51E;
+}
+
+.txt-amarelo{
+    color: #FED51E;
+}
+
+.txt-verde{
+    color: #147827;
+}
+
+.txt-vermelho{
     color: #E42D26;
 }
+.txt-branco{
+    color:white
+}
 
+.shadow{
+    box-shadow: 5px 5px 5px 5px  rgba(0,0,0,0.2);
+}
 
-h1{
-    margin: 5%;
+.a-direita{
+    float: right;
+}
+
+.a-esquerda{
+    float: left;
+}
+
+.centralizar{
+    display: flex;
+   align-items: center;
+}
+
+.txt-direita{
+    text-align: end;
+}
+
+.botao{
+    margin-top: 5%;
+    border: 2px solid white;
+    border-radius: 20px;
     color: white;
-    font-size: 5em ;
+    display: block;
+    /*font-family: "Trebuchet MS";*/
+    font-size: 1em;
+    font-weight: bold;
+    line-height: 1.5em;
+    text-align: center;
+    text-decoration: none;
+    padding: 1% 2%;
+    position: relative;
+    width: 20%;
 }
 
-h4{
-    margin: 5%;
-}
-h2{
-    padding: 0;
-    color: white;
-    font-size: 50px;
-}
-p{
-    margin: 0;
-    padding: 0;
-    color: white;
+.botao:active{
+    top: 1px;
 }
 
-html body{
-    margin: 0;
-    padding: 0;
-    min-width: 100%;
-}
 
-#voltar-topo{
-    margin-left: auto;
-    margin-right: 2%;
-}
+
+
+
