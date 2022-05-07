@@ -95,21 +95,18 @@ li a:hover:not(.active) {
 }
 
 /*Estilização do link: normal, com o mouse sobre e quando já visitado, respectivamente*/
-a:link{
-    color: whitesmoke;
+a{
+    color: #147827;
+}
+
+a.footer{
+    color: white;
 }
 
 a:hover{
     color: #E42D26;
 }
 
-a:visited{
-    color: #147827;
-}
-
-a:visited.footer{
-    color: white;
-}
 
 h1{
     margin: 5%;
@@ -135,4 +132,9 @@ html body{
     margin: 0;
     padding: 0;
     min-width: 100%;
+}
+
+#voltar-topo{
+    margin-left: auto;
+    margin-right: 2%;
 }
