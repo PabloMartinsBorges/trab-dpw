@@ -17,7 +17,7 @@
    background-color:white;
    height: 10vh;
    /*para a div ficar fixa no topo do site*/ 
-   z-index:3;
+   z-index:4;
    position: fixed;
 }
 
@@ -213,7 +213,8 @@ a:hover.hover-amarelo{
 }
 
 .bg-wheat{
-    background-color: wheat;
+    background-image: url("../imagem/guarana2.png");
+    background-size: 500px;
 }
 
 .txt-amarelo{
@@ -232,7 +233,7 @@ a:hover.hover-amarelo{
 }
 
 .shadow{
-    box-shadow: 5px 5px 5px 5px  rgba(0,0,0,0.2);
+    box-shadow: 4px 4px 4px 4px  rgba(0,0,0,0.2);
 }
 
 .a-direita{
@@ -271,15 +272,12 @@ a:hover.hover-amarelo{
 
 .botao:active:hover{
     top: 1px;
-    background-color: white;
 
 }
 
-/* Div para curiosidades e páginas com muito texto*/
-
 #div-texto{
     max-width: 100%;
-    background-color: whitesmoke;
+    background-color: white;
     align-items: center;
     position: relative;
     align-content: center;
@@ -321,9 +319,6 @@ li.txt{
 
 }
 
-
-
-
 /*Quiz*/
 
 .quiz {
@@ -335,7 +330,7 @@ li.txt{
 }
 
 .quiz-header {
-    background-color: #ff4d4d;
+    background-color: #E42D26;
     padding: 15px 20px;
     color: #fff;
     font-size: 20px;
@@ -347,9 +342,13 @@ li.txt{
 .quiz-descricao {
     padding: 39px 19px 22px 19px;
     border: 1px solid #b8b8e0;
-    background-color: #4dff4d;
+    background-color: white;
     color: #b8b8e0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.p-quiz{
+    color: #147827;
 }
 
 .linha{
@@ -360,4 +359,16 @@ li.txt{
     transform: rotate(180deg);
     position: relative;
     top:75%
+}
+
+.li-bolinha{
+    list-style-type: disc;
+    
+}
+
+.a-curiosidades{
+    color: #E42D26;
+}
+.a-curiosidades:hover{
+    color: #f2c40d;
 }
