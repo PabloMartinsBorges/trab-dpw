@@ -58,6 +58,10 @@
     text-align: center;
 }
 
+#index-res-mobile{
+    display: none;
+}
+
 .div-h-bg{
     position: absolute;
     height: 100%;
@@ -72,7 +76,6 @@
 
 /*Faz a organização dos links para as páginas*/
 a {
-    display: block;
     color: white;
 
     /*Retira a linha sublinhada do link*/
@@ -105,10 +108,11 @@ h2{
 }
 
 p{
-    margin: 0;
+    margin: 1% 0 1% 0;
     padding: 0;
     color: white;
     font-size: 1.5em;
+    text-align: justify;
 }
 
 html body{
@@ -117,7 +121,8 @@ html body{
     min-width: 100%;
 }
 
-p.footer{
+
+span.footer{
     color:white;
     font-size: 1.5em;
     text-decoration: solid;
@@ -151,10 +156,6 @@ li.header{
     float: left;
 }
 
-li.footer{
-    padding: 0 2% 0 2%;
-
-}
 /*Faz a estilização do background do link ao passar o mouse*/
 li a:hover:not(.active) {
     color: #E42D26;
@@ -368,9 +369,18 @@ li.txt{
 
 .a-curiosidades{
     color: #E42D26;
-    display: inline;
 }
 .a-curiosidades:hover{
     color: #f2c40d;
-    display: inline;
+}
+
+/*Remove as imagens caso a resolução da tela seja pequena*/
+@media(max-width: 1000px){
+
+    #index-res-mobile{
+        display: block;
+    }
+    #index-res-padrao{
+        display: none;
+    }
 }
