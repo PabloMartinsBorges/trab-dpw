@@ -107,6 +107,7 @@ h2{
     font-size: 3em;
 }
 
+
 p{
     margin: 1% 0 1% 0;
     padding: 0;
@@ -182,6 +183,21 @@ a:hover.hover-amarelo{
     color: #FED51E;
     border-color: #FED51E;
 }
+
+tr:nth-child(odd) {
+    background-color: #e84f4a;
+}
+
+th, td{
+    margin: 0;
+    padding: 1%;
+}
+
+table, th, td {
+    border-collapse: collapse;
+    color: black;
+}
+
 .div-topico, .text{
     height: 90vh;
     z-index: 2;
@@ -383,4 +399,17 @@ li.txt{
     #index-res-padrao{
         display: none;
     }
+}
+
+@keyframes girar{
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.animacao-giro{
+    animation: girar 2s linear infinite;;
 }
