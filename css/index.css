@@ -198,6 +198,11 @@ table, th, td {
     color: black;
 }
 
+p::first-letter{
+    font-size: 1.4em;
+    color: #E42D26;
+}
+
 .div-topico, .text{
     height: 90vh;
     z-index: 2;
@@ -384,10 +389,11 @@ li.txt{
 }
 
 .a-curiosidades{
-    color: #E42D26;
+
+    color: #f2c40d;
 }
 .a-curiosidades:hover{
-    color: #f2c40d;
+    color: #E42D26;
 }
 
 /*Remove as imagens caso a resolução da tela seja pequena*/
