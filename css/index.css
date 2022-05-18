@@ -13,6 +13,13 @@
     height: 90vh;
 }
 
+#div-sobre{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    position: absolute;
+}
+
 #div-header{
    background-color:white;
    height: 10vh;
@@ -100,7 +107,13 @@ h1{
 h3{
     margin: 5%;
     font-size: 2em;
+    color: white;
 }
+
+h4{
+    color: white;
+    }
+
 h2{
     padding:0 ;
     color: white;
@@ -141,6 +154,11 @@ ul.header{
     background-color: white;
     width: 100vw;
 
+}
+
+ul.header li:last-child {
+    position: fixed;
+    right: 0;
 }
 
 ul.footer{
@@ -274,6 +292,10 @@ p.primeira-letra::first-letter{
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.centralizar-txt{
+    text-align: center;
 }
 
 .txt-direita{
