@@ -198,9 +198,8 @@ table, th, td {
     color: black;
 }
 
-p::first-letter{
+p.primeira-letra::first-letter{
     font-size: 1.4em;
-    color: #E42D26;
 }
 
 .div-topico, .text{
@@ -266,9 +265,15 @@ p::first-letter{
     float: left;
 }
 
-.centralizar{
+.centralizar-y{
     display: flex;
    align-items: center;
+}
+
+.centralizar-x{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .txt-direita{
