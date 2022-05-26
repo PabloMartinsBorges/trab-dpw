@@ -69,6 +69,12 @@
     display: none;
 }
 
+.logo{
+    width: 3em;
+    height: 2.5em;
+    float: left;
+}
+
 .div-h-bg{
     position: absolute;
     height: 100%;
