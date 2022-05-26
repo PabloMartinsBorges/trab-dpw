@@ -1,4 +1,4 @@
-#div-header, #div-principal, .div-conteudo, .div-topico, .div-img-topico, #div-texto, .texto{
+#div-header, #div-principal, .div-conteudo, .div-topico, .div-img-topico, .div-texto, .texto{
     margin: 0;
     padding: 0;
 }
@@ -73,6 +73,15 @@
     width: 3em;
     height: 2.5em;
     float: left;
+}
+
+.img-borda{
+    height: 25%;
+}
+
+.img-anim{
+    height:20%;
+    width: 40%;
 }
 
 .div-h-bg{
@@ -330,7 +339,7 @@ p.primeira-letra::first-letter{
 
 }
 
-#div-texto{
+.div-texto{
     max-width: 100%;
     background-color: white;
     align-items: center;
@@ -339,6 +348,7 @@ p.primeira-letra::first-letter{
     margin: 0% 6%;
     display: flex;
 }
+
 
 .texto{
     
