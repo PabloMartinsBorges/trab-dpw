@@ -7,162 +7,164 @@
 
     <link rel="stylesheet" href="../css/index.css" type="text/css" media="screen"/>
     
+    <script src="../js/js.js"></script>
 </head>
 <body class="bg-wheat">
-   <!--HEADER!-->
-
-   
-   <div id="div-header" class="shadow">
-       <ul class="header">
-           <li class="header"> <a href="index.html">
-               <img alt="logo-guarana" class="logo" src="../imagem/logo1.png">
-               </a>
-           </li>
-           <li class="header"><a href="historia.html">História</a></li>
-           <li class="header"><a href="quiz.html">Quiz</a></li>
-           <li class="header"><a href="curiosidades.html">Curiosidades</a></li>
-           <li class="header"><a href="sobre.html">Sobre</a></li>
-       </ul>
-    </div>
-   <div id="div-principal">
-       <div id="div-titulo" class="shadow">
-           <h1 class="txt-verde">Curiosidades</h1>
-           <h3 class="txt-verde header">Aqui você vai encontrar uma lista de fatos curiosos sobre o fruto</h3>
-       </div>
-   </div>
-    <!--HEADER!-->
-    <!--CONTEUDO!-->
-
-    <div class="div-texto">
-            <div class="div-topico-metade">
-                <div class="texto">
-                    <div class="indice txt-branco">
-                    <h2 class="quiz-header">Indice</h2>
-                    
-                       <ol class="txt">
-                           <li class="txt"><a href="#top-1" class="txt-branco">Benefícios Para Saúde</a> </li>
-                           <li class="txt"><a href="#top-2" class="txt-branco">Guaraná Como Bebida Típica Japonesa</a></li>
-                           <li class="txt"><a href="#top-3" class="txt-branco">Jogo: A Lenda do Guaraná</a></li>
-                           
-                       </ol>
-                    
-                    </div>
-                </div>        
+    <header>
+        <nav id="div-header" class="shadow">
+            <ul class="header">
+                <li class="header"> <a href="index.html">
+                    <img alt="logo-guarana" class="logo" src="../imagem/logo1.png">
+                    </a>
+                </li>
+                <li class="header"><a href="index.html">Início</a></li>
+                <li class="header"><a href="historia.html">História</a></li>
+                <li class="header"><a href="quiz.html">Quiz</a></li>
+                <li class="header"><a href="curiosidades.html">Curiosidades</a></li>
+                <li class="header"><a href="sobre.html">Sobre</a></li>
+            </ul>
+        </nav>
+    
+        <div id="div-principal">
+            <div id="div-titulo" class="shadow">
+                <h1 class="txt-verde">Guaraná</h1>
+                <h3 class="txt-verde header">Um dos frutos endógenos latino-americanos mais conhecidos no mundo.</h3>
             </div>
-            <div class="div-topico-metade">
-                <img class="centralizar-x animacao-giro img-anim" src="../imagem/guarana7.png" alt="guarana girando">
-            </div>
-    </div>
-    <div class="div-texto">
-            <div class="texto letra">
-                <h2 id="top-1" class="txt-verde">Benefícios Para Saúde</h2>
-            <p class="txt-verde">
-                Ele contém uma gama impressionante de estimulantes, como cafeína, teofilina e teobromina. O guaraná também possui antioxidantes, como taninos, saponinas e catequinas.
-                Confira os benefícios que esse conjunto de substâncias proporciona para a sua saúde.
-            </p>
-                    <h3 class="txt-verde">Tabela nutricional</h3>
-                <table>
-                        <tr>
-                            <th colspan="3">Porção de 3,0g (1 colher de chá)</th>
-                        </tr>
-                        <tr>
-                            <td colspan="2">Quantidade por porção</td>
-                            <td>%VD(*)</td>
-                        </tr>
-                        <tr>
-                            <td>Valor Energético</td>
-                            <td>10 kcal</td>
-                            <td><span style="padding:3px;">1</span></td>
-                        </tr>
-                        <tr>
-                            <td>Carboidratos</td>
-                            <td><span style="padding:3px;">2,4 g</span>
-                            </td>
-                            <td>1</td>
-                        </tr>
-                        <tr>
-                            <td>Cafeína</td>
-                            <td><span style="padding:3px;">90 mg</span></td>
-                            <td>**</td>
-                        </tr>
-                        <tr>
-                            <td colspan="3">Não contém quantidades significativas de gorduras totais, gorduras saturadas, gorduras trans, fibra alimentar e sódio.</td>
-                        </tr>
-                        <tr>
-                            <td colspan="3">(*)% Valores Diários de referência com base em uma dieta de 2.000 kcal ou 8.400 kJ. Seus Valores Diários podem ser maiores ou menores, dependendo de suas necessidades energéticas.</td>
-                        </tr>
-                        <tr>
-                            <td colspan="3">(**) % Valor diário não estabelecido</td>
-                        </tr>
-                </table>
-               <h3 class="txt-verde">Contra doenças oculares relacionadas à idade </h3>
+        </div>
+    </header>  
+
+    <main>
+        <div class="div-texto">
+                <div class="div-topico-metade">
+                    <div class="texto">
+                        <div class="indice txt-branco">
+                        <h2 class="quiz-header">Indice</h2>
+                        
+                           <ol class="txt">
+                               <li class="txt"><a href="#top-1" class="txt-branco">Benefícios Para Saúde</a> </li>
+                               <li class="txt"><a href="#top-2" class="txt-branco">Guaraná Como Bebida Típica Japonesa</a></li>
+                               <li class="txt"><a href="#top-3" class="txt-branco">Jogo: A Lenda do Guaraná</a></li>
+                               
+                           </ol>
+                        
+                        </div>
+                    </div>        
+                </div>
+                <div class="div-topico-metade">
+                    <img id="img-anim" class="centralizar-x animacao-giro img-anim" alt="guarana girando" 
+                    src="../imagem/guarana7.png" onmouseover="this.src='../imagem/logo1.png'" onmouseout="this.src='../imagem/guarana7.png'">
+                </div>
+        </div>
+        <div class="div-texto">
+                <div class="texto letra">
+                    <h2 id="top-1" class="txt-verde">Benefícios Para Saúde</h2>
+                <p class="txt-verde">
+                    Ele contém uma gama impressionante de estimulantes, como cafeína, teofilina e teobromina. O guaraná também possui antioxidantes, como taninos, saponinas e catequinas.
+                    Confira os benefícios que esse conjunto de substâncias proporciona para a sua saúde.
+                </p>
+                        <h3 class="txt-verde">Tabela nutricional</h3>
+                    <table>
+                            <tr>
+                                <th colspan="3">Porção de 3,0g (1 colher de chá)</th>
+                            </tr>
+                            <tr>
+                                <td colspan="2">Quantidade por porção</td>
+                                <td>%VD(*)</td>
+                            </tr>
+                            <tr>
+                                <td>Valor Energético</td>
+                                <td>10 kcal</td>
+                                <td><span style="padding:3px;">1</span></td>
+                            </tr>
+                            <tr>
+                                <td>Carboidratos</td>
+                                <td><span style="padding:3px;">2,4 g</span>
+                                </td>
+                                <td>1</td>
+                            </tr>
+                            <tr>
+                                <td>Cafeína</td>
+                                <td><span style="padding:3px;">90 mg</span></td>
+                                <td>**</td>
+                            </tr>
+                            <tr>
+                                <td colspan="3">Não contém quantidades significativas de gorduras totais, gorduras saturadas, gorduras trans, fibra alimentar e sódio.</td>
+                            </tr>
+                            <tr>
+                                <td colspan="3">(*)% Valores Diários de referência com base em uma dieta de 2.000 kcal ou 8.400 kJ. Seus Valores Diários podem ser maiores ou menores, dependendo de suas necessidades energéticas.</td>
+                            </tr>
+                            <tr>
+                                <td colspan="3">(**) % Valor diário não estabelecido</td>
+                            </tr>
+                    </table>
+                   <h3 class="txt-verde">Contra doenças oculares relacionadas à idade </h3>
+                        <p class="txt-verde">
+                            Fatores como luz solar, dieta inadequada e certas opções de estilo de vida como fumar podem desgastar seus olhos com o tempo e aumentar o risco de doenças relacionadas aos olhos. 
+                            Mas o guaraná contém compostos que combatem o estresse oxidativo, um importante fator de risco para problemas de visão relacionados à idade, como degeneração macular, catarata e glaucoma.
+                        </p>
+                    <h3 class="txt-verde">Auxilia na perda de peso</h3>
                     <p class="txt-verde">
-                        Fatores como luz solar, dieta inadequada e certas opções de estilo de vida como fumar podem desgastar seus olhos com o tempo e aumentar o risco de doenças relacionadas aos olhos. 
-                        Mas o guaraná contém compostos que combatem o estresse oxidativo, um importante fator de risco para problemas de visão relacionados à idade, como degeneração macular, catarata e glaucoma.
+                        A cafeína presente no guaraná é capaz de acelerar o metabolismo em até 11% num período de 12 horas. Um metabolismo mais rápido significa que seu corpo queima mais calorias em repouso. 
+                        Além disso, estudos em tubos de ensaio descobriram que o guaraná pode suprimir genes responsáveis pela produção de células de gordura, além de promover genes que a retardam.
                     </p>
-                <h3 class="txt-verde">Auxilia na perda de peso</h3>
-                <p class="txt-verde">
-                    A cafeína presente no guaraná é capaz de acelerar o metabolismo em até 11% num período de 12 horas. Um metabolismo mais rápido significa que seu corpo queima mais calorias em repouso. 
-                    Além disso, estudos em tubos de ensaio descobriram que o guaraná pode suprimir genes responsáveis pela produção de células de gordura, além de promover genes que a retardam.
-                </p>
-
-                <h3 class="txt-verde">Melhora a saúde do coração</h3>
-                <p class="txt-verde">
-                    O consumo de guaraná pode reduzir o risco de doenças cardíacas de duas maneiras. 
-                    Em primeiro lugar, os antioxidantes do guaraná parecem ajudar o fluxo sanguíneo e podem prevenir a formação de coágulos sanguíneos, de acordo com pesquisas.
-                    Além disso, estudos mostraram que o guaraná pode diminuir a oxidação do colesterol LDL “ruim”. O colesterol LDL oxidado pode contribuir para o acúmulo de placas nas artérias.
-                </p>
-
-                <h3 class="txt-verde"> Melhora a concentração </h3>
-                <p class="txt-verde">
-                    O guaraná é mais conhecido como ingrediente em bebidas energéticas populares. É uma excelente fonte de cafeína, que ajuda você a manter o foco e a energia mental.
-                    A cafeína age bloqueando os efeitos da adenosina, um composto que ajuda a relaxar o cérebro. Um estudo descobriu que as pessoas que tomaram um suplemento vitamínico contendo guaraná se sentiram menos cansadas ao completar vários testes, em comparação com aquelas que tomaram um placebo.
-                </p>
-        </div>        
-
-    </div>
-
-    <div class="div-texto">
-        
-        <div id="top-2" class="texto">
-            <h2 class="txt-verde">Guaraná Como Bebida Típica Japonesa</h2>
-            <p class="txt-verde">
-                Refrigerantes à base de guaraná são raros em praticamente todo o Japão, mas não em Hokkaido, a província mais setentrional e fria do arquipélago, que se tornou referência desse tipo de bebida no país.
-                A geografia e o empenho de um grupo de pequenas e médias empresas 60 anos atrás ajudam a entender como ele foi parar no copo dos japoneses.
-                Muitas das marcas são produções locais, e quase todas trazem o mapa da província no rótulo como uma prova de que o guaraná tornou-se um orgulho de Hokkaido ao longo de 60 anos.
-            </p>
-            <p class="txt-verde">
-                O primeiro refrigerante do gênero produzido em larga escala no Japão surgiu em 1960, quatro anos antes dos Jogos Olímpicos de Tóquio e na época em que o país começava a emergir das cinzas da guerra.
-                Para rebater críticas que recebia por manter a economia superavitária e por impor altas tarifas sobre produtos importados, o país permitiu a entrada da Coca-Cola, que aportou no Japão em 1957.
-                Em um curto espaço de tempo, os japoneses se apaixonaram pelo aroma único do refrigerante americano, levando à queda nas vendas de ramune (limonada gaseificada) e de cidra (soda), os refrigerantes produzidos na época pela indústria japonesa.
-                Para conter a investida do refrigerante americano, a Federação Nacional de Cooperativas de Produtores de Soft Drink do Japão foi em busca de uma alternativa capaz de disputar o mercado local com a Coca-Cola.
-
-                "Foi quando soubemos que no Brasil havia uma bebida consumida há muito tempo pela população e que batia de frente com a Coca-Cola", lembra Koichi Obara, atual presidente da Co-Up Co.
-
-                A empresa foi formada por 35 cooperados de várias províncias para desenvolver e comercializar uma marca unificada do primeiro refrigerante marrom made in Japan.
-            </p>
-        </div>        
-
-    </div>
-
-    <div class="div-texto">
-
-        <div id="top-3" class="texto">
-            <h2 class="txt-verde">Jogo: A Lenda do Guaraná</h2>
-            <p class="txt-verde">
-                Além disso, a <a class="a-curiosidades" href="historia.html" target="_blank">Lenda do Guaraná</a> inspirou um jogo de navegador de mesmo nome. 
-                Desenvolvido pelo AfroGames, o jogo reconta a lenda, no qual o jogador possui o controle de um dos irmãos.
-                Caso tenha curiosidade, pode jogá-lo no <a class="a-curiosidades" href="https://afrogamesdev.itch.io/alendadoguarana" target="_blank">site</a> do próprio desenvolvedor, assim como no video abaixo:
-            </p>
-                <br>
-            <iframe class="shadow" width="640" height="350" src="https://www.youtube.com/embed/YOV5HmkcYwQ" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    
+                    <h3 class="txt-verde">Melhora a saúde do coração</h3>
+                    <p class="txt-verde">
+                        O consumo de guaraná pode reduzir o risco de doenças cardíacas de duas maneiras. 
+                        Em primeiro lugar, os antioxidantes do guaraná parecem ajudar o fluxo sanguíneo e podem prevenir a formação de coágulos sanguíneos, de acordo com pesquisas.
+                        Além disso, estudos mostraram que o guaraná pode diminuir a oxidação do colesterol LDL “ruim”. O colesterol LDL oxidado pode contribuir para o acúmulo de placas nas artérias.
+                    </p>
+    
+                    <h3 class="txt-verde"> Melhora a concentração </h3>
+                    <p class="txt-verde">
+                        O guaraná é mais conhecido como ingrediente em bebidas energéticas populares. É uma excelente fonte de cafeína, que ajuda você a manter o foco e a energia mental.
+                        A cafeína age bloqueando os efeitos da adenosina, um composto que ajuda a relaxar o cérebro. Um estudo descobriu que as pessoas que tomaram um suplemento vitamínico contendo guaraná se sentiram menos cansadas ao completar vários testes, em comparação com aquelas que tomaram um placebo.
+                    </p>
+            </div>        
+    
+        </div>
+    
+        <div class="div-texto">
             
-        </div>        
+            <div id="top-2" class="texto">
+                <h2 class="txt-verde">Guaraná Como Bebida Típica Japonesa</h2>
+                <p class="txt-verde">
+                    Refrigerantes à base de guaraná são raros em praticamente todo o Japão, mas não em Hokkaido, a província mais setentrional e fria do arquipélago, que se tornou referência desse tipo de bebida no país.
+                    A geografia e o empenho de um grupo de pequenas e médias empresas 60 anos atrás ajudam a entender como ele foi parar no copo dos japoneses.
+                    Muitas das marcas são produções locais, e quase todas trazem o mapa da província no rótulo como uma prova de que o guaraná tornou-se um orgulho de Hokkaido ao longo de 60 anos.
+                </p>
+                <p class="txt-verde">
+                    O primeiro refrigerante do gênero produzido em larga escala no Japão surgiu em 1960, quatro anos antes dos Jogos Olímpicos de Tóquio e na época em que o país começava a emergir das cinzas da guerra.
+                    Para rebater críticas que recebia por manter a economia superavitária e por impor altas tarifas sobre produtos importados, o país permitiu a entrada da Coca-Cola, que aportou no Japão em 1957.
+                    Em um curto espaço de tempo, os japoneses se apaixonaram pelo aroma único do refrigerante americano, levando à queda nas vendas de ramune (limonada gaseificada) e de cidra (soda), os refrigerantes produzidos na época pela indústria japonesa.
+                    Para conter a investida do refrigerante americano, a Federação Nacional de Cooperativas de Produtores de Soft Drink do Japão foi em busca de uma alternativa capaz de disputar o mercado local com a Coca-Cola.
+    
+                    "Foi quando soubemos que no Brasil havia uma bebida consumida há muito tempo pela população e que batia de frente com a Coca-Cola", lembra Koichi Obara, atual presidente da Co-Up Co.
+    
+                    A empresa foi formada por 35 cooperados de várias províncias para desenvolver e comercializar uma marca unificada do primeiro refrigerante marrom made in Japan.
+                </p>
+            </div>        
+    
+        </div>
+    
+        <div class="div-texto">
+    
+            <div id="top-3" class="texto">
+                <h2 class="txt-verde">Jogo: A Lenda do Guaraná</h2>
+                <p class="txt-verde">
+                    Além disso, a <a class="a-curiosidades" href="historia.html" target="_blank">Lenda do Guaraná</a> inspirou um jogo de navegador de mesmo nome. 
+                    Desenvolvido pelo AfroGames, o jogo reconta a lenda, no qual o jogador possui o controle de um dos irmãos.
+                    Caso tenha curiosidade, pode jogá-lo no <a class="a-curiosidades" href="https://afrogamesdev.itch.io/alendadoguarana" target="_blank">site</a> do próprio desenvolvedor, assim como no video abaixo:
+                </p>
+                    <br>
+                <iframe class="shadow" width="640" height="350" src="https://www.youtube.com/embed/YOV5HmkcYwQ" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                
+            </div>        
+    
+        </div>
+    </main>
 
-    </div>
-
-    <!-- FOOTER  !-->
-    <div>
+    <footer>
         <div id="footer-top">
             <span class="footer">Idealizado por</span> <br>
             <span class="footer">Davi Lima & Pablo Martins</span>
@@ -173,7 +175,6 @@
                 <a class="footer" href="#div-principal">Voltar ao topo</a>
             </div>
         </div>
-    </div>
-    <!-- FOOTER  !-->
+    </footer>
 </body>
 </html>

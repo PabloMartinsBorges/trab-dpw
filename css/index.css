@@ -453,6 +453,8 @@ li.txt{
     }
 }
 
+/*animacao*/
+
 @keyframes girar{
     from {
         transform: rotate(0);
@@ -463,5 +465,29 @@ li.txt{
 }
 
 .animacao-giro{
-    animation: girar 2s linear infinite;;
+    animation: girar 2s linear infinite;
+}
+
+
+/*tooltip*/
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+  
+.tooltiptext {
+visibility: hidden;
+width: 110px;
+background-color: #147827;
+color: #fff;
+border-radius: 8px;
+padding: 5px;
+
+position: absolute;
+z-index: 1;
+}
+
+.tooltip:hover .tooltiptext {
+visibility: visible;
 }
