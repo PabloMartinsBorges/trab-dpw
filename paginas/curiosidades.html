@@ -7,9 +7,10 @@
 
     <link rel="stylesheet" href="../css/index.css" type="text/css" media="screen"/>
     
+    <script src="../js/lib/moment.js"></script>
     <script src="../js/js.js"></script>
 </head>
-<body class="bg-wheat">
+<body class="bg-wheat" onload="contadorDias()">
     <header>
         <nav id="div-header" class="shadow">
             <ul class="header">
@@ -41,9 +42,10 @@
                         <h2 class="quiz-header">Indice</h2>
                         
                            <ol class="txt">
-                               <li class="txt"><a href="#top-1" class="txt-branco">Benefícios Para Saúde</a> </li>
-                               <li class="txt"><a href="#top-2" class="txt-branco">Guaraná Como Bebida Típica Japonesa</a></li>
-                               <li class="txt"><a href="#top-3" class="txt-branco">Jogo: A Lenda do Guaraná</a></li>
+                               <li class="txt"><a href="#top-1" class="txt-branco">Festa do Guaraná</a> </li>
+                               <li class="txt"><a href="#top-2" class="txt-branco">Benefícios Para Saúde</a> </li>
+                               <li class="txt"><a href="#top-3" class="txt-branco">Guaraná Como Bebida Típica Japonesa</a></li>
+                               <li class="txt"><a href="#top-4" class="txt-branco">Jogo: A Lenda do Guaraná</a></li>
                                
                            </ol>
                         
@@ -55,78 +57,99 @@
                     src="../imagem/guarana7.png" onmouseover="this.src='../imagem/logo1.png'" onmouseout="this.src='../imagem/guarana7.png'">
                 </div>
         </div>
+        
         <div class="div-texto">
-                <div class="texto letra">
-                    <h2 id="top-1" class="txt-verde">Benefícios Para Saúde</h2>
+            <div class="texto letra">
+                <h2 class="txt-verde" id="top-1">Festa do Guaraná</h2>
+                <p class="txt-verde">
+                    O evento ocorre em Maués, município do Amazonas, e conta com diversas atrações, como shows, comidas e etc. Tudo isso durante os dias 7, 8 e 9 de dezembro.    
+                </p>
+                <h3 class="txt-vermelho" id="data">Dias desde o último evento:  </h3>
+                <img class="shadow" src="../imagem/guarana-evento.png" alt="imagem evento guaraná">
+            </div>
+        </div>
+
+        <div class="div-texto">
+            <div class="texto letra">
+
+                <h2 id="top-2" class="txt-verde">Benefícios Para Saúde</h2>
+                
                 <p class="txt-verde">
                     Ele contém uma gama impressionante de estimulantes, como cafeína, teofilina e teobromina. O guaraná também possui antioxidantes, como taninos, saponinas e catequinas.
                     Confira os benefícios que esse conjunto de substâncias proporciona para a sua saúde.
                 </p>
-                        <h3 class="txt-verde">Tabela nutricional</h3>
-                    <table>
-                            <tr>
-                                <th colspan="3">Porção de 3,0g (1 colher de chá)</th>
-                            </tr>
-                            <tr>
-                                <td colspan="2">Quantidade por porção</td>
-                                <td>%VD(*)</td>
-                            </tr>
-                            <tr>
-                                <td>Valor Energético</td>
-                                <td>10 kcal</td>
-                                <td><span style="padding:3px;">1</span></td>
-                            </tr>
-                            <tr>
-                                <td>Carboidratos</td>
-                                <td><span style="padding:3px;">2,4 g</span>
-                                </td>
-                                <td>1</td>
-                            </tr>
-                            <tr>
-                                <td>Cafeína</td>
-                                <td><span style="padding:3px;">90 mg</span></td>
-                                <td>**</td>
-                            </tr>
-                            <tr>
-                                <td colspan="3">Não contém quantidades significativas de gorduras totais, gorduras saturadas, gorduras trans, fibra alimentar e sódio.</td>
-                            </tr>
-                            <tr>
-                                <td colspan="3">(*)% Valores Diários de referência com base em uma dieta de 2.000 kcal ou 8.400 kJ. Seus Valores Diários podem ser maiores ou menores, dependendo de suas necessidades energéticas.</td>
-                            </tr>
-                            <tr>
-                                <td colspan="3">(**) % Valor diário não estabelecido</td>
-                            </tr>
-                    </table>
-                   <h3 class="txt-verde">Contra doenças oculares relacionadas à idade </h3>
-                        <p class="txt-verde">
-                            Fatores como luz solar, dieta inadequada e certas opções de estilo de vida como fumar podem desgastar seus olhos com o tempo e aumentar o risco de doenças relacionadas aos olhos. 
-                            Mas o guaraná contém compostos que combatem o estresse oxidativo, um importante fator de risco para problemas de visão relacionados à idade, como degeneração macular, catarata e glaucoma.
-                        </p>
-                    <h3 class="txt-verde">Auxilia na perda de peso</h3>
-                    <p class="txt-verde">
-                        A cafeína presente no guaraná é capaz de acelerar o metabolismo em até 11% num período de 12 horas. Um metabolismo mais rápido significa que seu corpo queima mais calorias em repouso. 
-                        Além disso, estudos em tubos de ensaio descobriram que o guaraná pode suprimir genes responsáveis pela produção de células de gordura, além de promover genes que a retardam.
-                    </p>
-    
-                    <h3 class="txt-verde">Melhora a saúde do coração</h3>
-                    <p class="txt-verde">
-                        O consumo de guaraná pode reduzir o risco de doenças cardíacas de duas maneiras. 
-                        Em primeiro lugar, os antioxidantes do guaraná parecem ajudar o fluxo sanguíneo e podem prevenir a formação de coágulos sanguíneos, de acordo com pesquisas.
-                        Além disso, estudos mostraram que o guaraná pode diminuir a oxidação do colesterol LDL “ruim”. O colesterol LDL oxidado pode contribuir para o acúmulo de placas nas artérias.
-                    </p>
-    
-                    <h3 class="txt-verde"> Melhora a concentração </h3>
-                    <p class="txt-verde">
-                        O guaraná é mais conhecido como ingrediente em bebidas energéticas populares. É uma excelente fonte de cafeína, que ajuda você a manter o foco e a energia mental.
-                        A cafeína age bloqueando os efeitos da adenosina, um composto que ajuda a relaxar o cérebro. Um estudo descobriu que as pessoas que tomaram um suplemento vitamínico contendo guaraná se sentiram menos cansadas ao completar vários testes, em comparação com aquelas que tomaram um placebo.
-                    </p>
+                
+                <h3 class="txt-verde">Tabela nutricional</h3>
+
+                <table>
+                <tr>
+                    <th colspan="3">Porção de 3,0g (1 colher de chá)</th>
+                </tr>
+                <tr>
+                    <td colspan="2">Quantidade por porção</td>
+                    <td>%VD(*)</td>
+                </tr>
+                <tr>
+                    <td>Valor Energético</td>
+                    <td>10 kcal</td>
+                    <td><span style="padding:3px;">1</span></td>
+                </tr>
+                <tr>
+                    <td>Carboidratos</td>
+                    <td><span style="padding:3px;">2,4 g</span>
+                    </td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Cafeína</td>
+                    <td><span style="padding:3px;">90 mg</span></td>
+                    <td>**</td>
+                </tr>
+                <tr>
+                    <td colspan="3">Não contém quantidades significativas de gorduras totais, gorduras saturadas, gorduras trans, fibra alimentar e sódio.</td>
+                </tr>
+                <tr>
+                    <td colspan="3">(*)% Valores Diários de referência com base em uma dieta de 2.000 kcal ou 8.400 kJ. Seus Valores Diários podem ser maiores ou menores, dependendo de suas necessidades energéticas.</td>
+                </tr>
+                <tr>
+                    <td colspan="3">(**) % Valor diário não estabelecido</td>
+                </tr>
+                </table>
+
+                <h3 class="txt-verde">Contra doenças oculares relacionadas à idade </h3>
+
+                <p class="txt-verde">
+                    Fatores como luz solar, dieta inadequada e certas opções de estilo de vida como fumar podem desgastar seus olhos com o tempo e aumentar o risco de doenças relacionadas aos olhos. 
+                    Mas o guaraná contém compostos que combatem o estresse oxidativo, um importante fator de risco para problemas de visão relacionados à idade, como degeneração macular, catarata e glaucoma.
+                </p>
+
+                <h3 class="txt-verde">Auxilia na perda de peso</h3>
+
+                <p class="txt-verde">
+                    A cafeína presente no guaraná é capaz de acelerar o metabolismo em até 11% num período de 12 horas. Um metabolismo mais rápido significa que seu corpo queima mais calorias em repouso. 
+                    Além disso, estudos em tubos de ensaio descobriram que o guaraná pode suprimir genes responsáveis pela produção de células de gordura, além de promover genes que a retardam.
+                </p>
+
+                <h3 class="txt-verde">Melhora a saúde do coração</h3>
+
+                <p class="txt-verde">
+                    O consumo de guaraná pode reduzir o risco de doenças cardíacas de duas maneiras. 
+                    Em primeiro lugar, os antioxidantes do guaraná parecem ajudar o fluxo sanguíneo e podem prevenir a formação de coágulos sanguíneos, de acordo com pesquisas.
+                    Além disso, estudos mostraram que o guaraná pode diminuir a oxidação do colesterol LDL “ruim”. O colesterol LDL oxidado pode contribuir para o acúmulo de placas nas artérias.
+                </p>
+
+                <h3 class="txt-verde"> Melhora a concentração </h3>
+
+                <p class="txt-verde">
+                    O guaraná é mais conhecido como ingrediente em bebidas energéticas populares. É uma excelente fonte de cafeína, que ajuda você a manter o foco e a energia mental.
+                    A cafeína age bloqueando os efeitos da adenosina, um composto que ajuda a relaxar o cérebro. Um estudo descobriu que as pessoas que tomaram um suplemento vitamínico contendo guaraná se sentiram menos cansadas ao completar vários testes, em comparação com aquelas que tomaram um placebo.
+                </p>
             </div>        
-    
         </div>
     
         <div class="div-texto">
             
-            <div id="top-2" class="texto">
+            <div id="top-3" class="texto">
                 <h2 class="txt-verde">Guaraná Como Bebida Típica Japonesa</h2>
                 <p class="txt-verde">
                     Refrigerantes à base de guaraná são raros em praticamente todo o Japão, mas não em Hokkaido, a província mais setentrional e fria do arquipélago, que se tornou referência desse tipo de bebida no país.
@@ -149,7 +172,7 @@
     
         <div class="div-texto">
     
-            <div id="top-3" class="texto">
+            <div id="top-4" class="texto">
                 <h2 class="txt-verde">Jogo: A Lenda do Guaraná</h2>
                 <p class="txt-verde">
                     Além disso, a <a class="a-curiosidades" href="historia.html" target="_blank">Lenda do Guaraná</a> inspirou um jogo de navegador de mesmo nome. 
