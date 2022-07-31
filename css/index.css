@@ -599,7 +599,7 @@ visibility: visible;
 .mes {
   padding: 30px 0px;
   width: 100%;
-  background: #1abc9c;
+  background: #E42D26;
   text-align: center;
 }
 
@@ -614,6 +614,7 @@ visibility: visible;
   font-size: 20px;
   text-transform: uppercase;
   letter-spacing: 3px;
+  font-weight: bold;
 }
 
 
@@ -658,9 +659,8 @@ visibility: visible;
 }
 
 .calendario{
-    max-width: 1000px;
+    
     display: inherit;
     padding: 10%;
-    
     align-items: center;
 }

@@ -38,21 +38,15 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
-function escreve_data(){
-    hoje = new Date();
-    dia = hoje.getDate();
-    mes = hoje.getMonth() + 1;
-    ano = hoje.getYear();
-  if (dia < 10){
-     dia = "0" + dia;
-    }
-  if (mes < 10){
-    mes = "0" + mes;
-  }
-  if (ano < 1900){
-    ano = ano + 1900;
-    document.write(dia + "/" + mes + "/"+ ano);
-    }
+function escreve_dia(){
+    data = new Date();
+    dia = data.getDate();
+    dia_mes = dia.toString();
+    document.getElementById(dia_mes).style.color = "red";
+    document.getElementById(dia_mes).style.fontWeight = "bold";
+    document.getElementById(dia_mes).style.fontSize = "larger";
+    
+    
 }
 
 function escreve_mes(){
