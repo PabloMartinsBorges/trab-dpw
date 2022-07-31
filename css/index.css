@@ -665,3 +665,22 @@ visibility: visible;
     padding: 10%;
     align-items: center;
 }
+
+/* Estilo do Jogo */
+
+#personagem, #game, #quadrado{
+    margin: 0;
+    padding: 0;
+}
+
+#game{
+    width: 500px;
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+   align-items: center;
+   position: relative;
+}
+
+
+

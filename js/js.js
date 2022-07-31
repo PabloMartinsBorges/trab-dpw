@@ -19,11 +19,10 @@ function contadorDias(){
 }   
 
 
-var slideIndex = 1;
-
 
 function showSlides(n) {
   let i;
+  let slideIndex = 1;
   let slides = document.getElementsByClassName("mySlides");
   let dots = document.getElementsByClassName("dot");
   if (n > slides.length) {slideIndex = 1}    
@@ -32,7 +31,7 @@ function showSlides(n) {
     slides[i].style.display = "none";  
   }
   for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
+    dots[i].className = dots[i].className.replace(" active", "100");
   }
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
