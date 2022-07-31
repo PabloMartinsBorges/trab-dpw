@@ -1,4 +1,4 @@
-#div-header, #div-principal, .div-conteudo, .div-topico, .div-img-topico, .div-texto, .texto{
+#div-header, #div-principal, .div-conteudo, .div-topico, .div-img-topico, .div-texto, .calendario, .texto{
     margin: 0;
     padding: 0;
 }
@@ -8,6 +8,8 @@
    display: flex;
    align-items: center;
 }
+
+
 
 #div-principal{
     height: 90vh;
@@ -586,3 +588,79 @@ visibility: visible;
 @media only screen and (max-width: 300px) {
     .prev, .next,.text {font-size: 11px}
   }
+
+
+  .mes ul, .dias ul, .semana ul {
+    align-items: center;
+    list-style-type: none;
+}
+
+/* Month header */
+.mes {
+  padding: 30px 0px;
+  width: 100%;
+  background: #1abc9c;
+  text-align: center;
+}
+
+/* Month list */
+.mes ul {
+  margin: 0;
+  padding: 0;
+}
+
+.mes ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+
+/* Weekdays (Mon-Sun) */
+.semana {
+  margin: 0;
+  padding: 10px 0;
+  background-color:#ddd;
+}
+
+.semana li {
+  display: inline-block;
+  width: 13%;
+  color: #666;
+  text-align: center;
+}
+
+/* Days (1-31) */
+.dias {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+  flex-wrap: wrap;
+}
+
+.dias li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+  margin: 2%;
+}
+
+/* Highlight the "current" day */
+.dias li .active {
+  padding: 5px;
+  background: #1abc9c;
+  color: white !important
+}
+
+.calendario{
+    max-width: 1000px;
+    display: inherit;
+    padding: 10%;
+    
+    align-items: center;
+}

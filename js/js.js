@@ -38,3 +38,27 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
+function escreve_data(){
+    hoje = new Date();
+    dia = hoje.getDate();
+    mes = hoje.getMonth() + 1;
+    ano = hoje.getYear();
+  if (dia < 10){
+     dia = "0" + dia;
+    }
+  if (mes < 10){
+    mes = "0" + mes;
+  }
+  if (ano < 1900){
+    ano = ano + 1900;
+    document.write(dia + "/" + mes + "/"+ ano);
+    }
+}
+
+function escreve_mes(){
+ nome = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
+ hoje = new Date();
+ mes = hoje.getMonth();
+ document.write(nome[mes]);
+ }
+
