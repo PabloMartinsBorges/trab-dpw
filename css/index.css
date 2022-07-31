@@ -590,9 +590,10 @@ visibility: visible;
   }
 
 
-  .mes ul, .dias ul, .semana ul {
+  .mes ul, ul.dias, .semana ul {
     align-items: center;
     list-style-type: none;
+    justify-content: space-between;
 }
 
 /* Month header */
