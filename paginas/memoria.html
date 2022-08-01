@@ -6,12 +6,25 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+<link rel="stylesheet" href="../css/reset.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="../css/index.css" type="text/css" media="screen"/>
+
 <script src="../js/lib/moment.js"></script>
 <script src="../js/js.js"></script>
 
 </head>
 
 <body onload="init()">
+
+    <div class="game">
+                
+        <h1 id="unirio" class="txt-verde">JOGO DA MEMÓRIA</h1>
+        <button class="reiniciar" onclick="init()">Reiniciar</button> <br>
+
+        <canvas id="canvas"width="1200" height="800" >                         
+            Seu navegador não suporta CANVAS
+        </canvas>
+    </div>   
 
 </body>
 </html>

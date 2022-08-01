@@ -666,6 +666,11 @@ visibility: visible;
     align-items: center;
 }
 
+.game{
+    max-width: 1200px;
+    max-height: 500px;
+    flex-wrap: wrap;
+}
 .reiniciar{
     background-color: #E42D26;
     border-radius: 20px;
