@@ -666,21 +666,21 @@ visibility: visible;
     align-items: center;
 }
 
-/* Estilo do Jogo */
-
-#personagem, #game, #quadrado{
-    margin: 0;
-    padding: 0;
+.reiniciar{
+    background-color: #E42D26;
+    border-radius: 20px;
+    color: white;
+    display: block;
+    /*font-family: "Trebuchet MS";*/
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    padding: 1% 2%;
+    position: relative;
 }
 
-#game{
-    width: 500px;
-    height: 200px;
-    border: 1px solid black;
-    display: flex;
-   align-items: center;
-   position: relative;
+.reiniciar:hover{
+    background-color: brown;
+    color: #b8b8e0;
 }
-
-
 
