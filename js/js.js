@@ -45,7 +45,6 @@ function escreve_dia(){
     document.getElementById(dia_mes).style.fontWeight = "bold";
     document.getElementById(dia_mes).style.fontSize = "larger";
     
-    
 }
 
 function escreve_mes(){
@@ -58,7 +57,7 @@ function escreve_mes(){
 
  // Código do Jogo
 
- var maximo  = 16;
+ var maximo  = 10;
 var largura = 120;
 var altura  = 200;
 var margem  = 20;
@@ -68,10 +67,8 @@ var ordem   = []; // ordem em que as cartas aparecem
 var imagens = [
     "../imagem/guarana3.png", "../imagem/guarana3b.png",
     "../imagem/guarana5.png", "../imagem/guarana5b.png",
-    "../imagem/guarana4.png", "../imagem/guarana4b.png",
     "../imagem/guarana7.png", "../imagem/guarana7b.png",
     "../imagem/guarana-evento.png", "../imagem/guarana-eventob.png",
-    "../imagem/guarana8.jpg", "../imagem/guarana8b.jpg",
     "../imagem/logo1.png", "../imagem/logo1b.png",
     "../imagem/guarana6.png", "../imagem/guarana6b.png"
 ]
@@ -102,7 +99,7 @@ function viraCarta(canvas, event) {
 
     // Verifica se o clique está na segunda linha
     if (y > altura + margem){
-        nx += 8;
+        nx += 5;
         y_inf = altura + margem;
         y_sup = y_inf + altura;
     }
