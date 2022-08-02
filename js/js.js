@@ -162,13 +162,18 @@ function init(){
 
 function Data_Comemorativa() {
    var hoje = new Date();
-   if(hoje.getDate() == 7 && hoje.getMonth() == 8){
+   if(hoje.getDate() ==7 && hoje.getMonth() == 8){
     document.getElementById('div-principal').style.backgroundImage = 'url("../imagem/bandeira-do-brasil.png")';
     document.getElementById('div-principal').style.backgroundSize = '1000px';
     document.getElementById('div-principal').style.backgroundRepeat = 'no-repeat';
    document.getElementById('div-principal').style.backgroundPosition = 'right';
    document.getElementById('div-principal').style.backgroundColor = 'rgb(0, 156, 59)';
-   
+   const node = document.createTextNode("Nada melhor pra comemorar o dia da indepedência do que uma fruta brasileira");
+   const paragrafo1 = document.createElement("h3");
+    paragrafo1.appendChild(node);
+    const elemento1 = document.getElementById("subtitulo");
+    elemento1.appendChild(paragrafo1);
+
    }
    
 
