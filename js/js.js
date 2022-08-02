@@ -158,3 +158,18 @@ function init(){
     embaralhaCartas();
     montaPainel();   
 }
+
+
+function Data_Comemorativa() {
+   var hoje = new Date();
+   if(hoje.getDate() == 7 && hoje.getMonth() == 8){
+    document.getElementById('div-principal').style.backgroundImage = 'url("../imagem/bandeira-do-brasil.png")';
+    document.getElementById('div-principal').style.backgroundSize = '1000px';
+    document.getElementById('div-principal').style.backgroundRepeat = 'no-repeat';
+   document.getElementById('div-principal').style.backgroundPosition = 'right';
+   document.getElementById('div-principal').style.backgroundColor = 'rgb(0, 156, 59)';
+   
+   }
+   
+
+}
